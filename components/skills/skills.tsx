@@ -32,7 +32,7 @@ export function Skills() {
                 {skillList.map((skill) => (
                   <span
                     key={skill}
-                    className="text-sm px-4 py-2 rounded-lg bg-foreground/5 text-foreground/70 hover:bg-foreground/10 transition-colors"
+                    className="text-sm px-4 py-2 rounded-lg bg-secondary/30 text-foreground/70 hover:bg-secondary/50 transition-colors"
                   >
                     {skill}
                   </span>

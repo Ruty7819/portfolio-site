@@ -6,7 +6,7 @@ import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export function Footer() {
   return (
-    <footer className="border-t border-foreground/10">
+    <footer className="border-t border-foreground/10 bg-background">
       <SectionWrapper>
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="space-y-2">
@@ -23,7 +23,7 @@ export function Footer() {
               href={contact.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-foreground/60 hover:text-foreground transition-colors"
+              className="text-foreground/60 hover:text-accent transition-colors"
               aria-label="GitHub"
             >
               <GithubLogo size={24} />
@@ -32,7 +32,7 @@ export function Footer() {
               href={contact.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-foreground/60 hover:text-foreground transition-colors"
+              className="text-foreground/60 hover:text-accent transition-colors"
               aria-label="LinkedIn"
             >
               <LinkedinLogo size={24} />

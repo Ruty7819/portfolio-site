@@ -17,14 +17,14 @@ export function ProjectCard({ project }: ProjectCardProps) {
       whileInView={reduce ? false : { opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      className="group relative overflow-hidden rounded-2xl border border-foreground/10 bg-background hover:border-foreground/20 transition-colors"
+      className="group relative overflow-hidden rounded-2xl border border-foreground/10 bg-background hover:border-accent/50 transition-colors"
     >
-      <div className="aspect-video bg-gradient-to-br from-foreground/5 to-foreground/10 flex items-center justify-center">
+      <div className="aspect-video bg-gradient-to-br from-accent/10 to-secondary/20 flex items-center justify-center">
         <p className="text-foreground/50 text-sm">Project Image - להוסיף בהמשך</p>
       </div>
       
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-semibold text-foreground group-hover:text-foreground/80 transition-colors">
+        <h3 className="text-xl font-semibold text-foreground group-hover:text-accent transition-colors">
           {project.title}
         </h3>
         
@@ -36,7 +36,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="text-xs px-3 py-1 rounded-full bg-foreground/5 text-foreground/70"
+              className="text-xs px-3 py-1 rounded-full bg-secondary/30 text-foreground/70"
             >
               {tech}
             </span>

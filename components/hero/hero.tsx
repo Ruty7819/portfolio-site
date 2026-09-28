@@ -26,7 +26,7 @@ export function Hero() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-tighter leading-none text-foreground">
                 מפתחת Fullstack
                 <br />
-                <span className="text-foreground/70">+ AI/Automation</span>
+                <span className="text-accent">+ AI/Automation</span>
               </h1>
             </motion.div>
 
@@ -55,7 +55,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
-            <div className="aspect-square bg-gradient-to-br from-foreground/10 to-foreground/5 rounded-3xl flex items-center justify-center">
+            <div className="aspect-square bg-gradient-to-br from-accent/20 to-secondary/30 rounded-3xl flex items-center justify-center">
               <p className="text-foreground/50">Hero Visual - להוסיף בהמשך</p>
             </div>
           </motion.div>

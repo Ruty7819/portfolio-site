@@ -141,10 +141,10 @@
 ## Phase 4: עיצוב ו-Typography
 
 ### 4.1 בחירת Color Palette
-- [ ] בחירת accent color ייחודי (לא AI-purple)
-- [ ] הגדרת neutrals (zinc/slate/stone)
-- [ ] וודא שה-palette יציב (warm או cool, לא תערובת)
-- [ ] הגדרת colors ב-Tailwind config או CSS variables
+- [x] בחירת accent color ייחודי (לא AI-purple)
+- [x] הגדרת neutrals (zinc/slate/stone)
+- [x] וודא שה-palette יציב (warm או cool, לא תערובת)
+- [x] הגדרת colors ב-Tailwind config או CSS variables
 
 ### 4.2 יישום Typography
 - [ ] הגדרת font sizes עבור:

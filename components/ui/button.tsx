@@ -16,7 +16,7 @@ export function Button({
   const baseStyles = 'font-medium rounded-full transition-all duration-200 active:scale-[0.98]';
 
   const variantStyles = {
-    primary: 'bg-foreground text-background hover:bg-[#383838] dark:hover:bg-[#ccc]',
+    primary: 'bg-accent text-white hover:bg-accent-dark',
     secondary: 'border border-foreground/20 text-foreground hover:bg-foreground/5',
     ghost: 'text-foreground hover:bg-foreground/5',
   };
