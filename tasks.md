@@ -20,12 +20,12 @@
 - [ ] (אופציונלי) התקנת Geist font או Outfit דרך next/font
 
 ### 1.3 הגדרת Tailwind v4
-- [ ] הסרת Tailwind v3 dependencies אם קיימים
-- [ ] התקנת Tailwind v4 Vite plugin: `npm install @tailwindcss/postcss`
-- [ ] עדכון `postcss.config.js` לשימוש ב-`@tailwindcss/postcss`
-- [ ] עדכון `tailwind.config.ts` ל-configuration של v4
-- [ ] עדכון `app/globals.css` ל-directives של v4
-- [ ] וודא שהכל עובד עם `npm run dev`
+- [x] הסרת Tailwind v3 dependencies אם קיימים
+- [x] התקנת Tailwind v4 Vite plugin: `npm install @tailwindcss/postcss`
+- [x] עדכון `postcss.config.js` לשימוש ב-`@tailwindcss/postcss`
+- [x] עדכון `tailwind.config.ts` ל-configuration של v4
+- [x] עדכון `app/globals.css` ל-directives של v4
+- [x] וודא שהכל עובד עם `npm run dev`
 
 ### 1.4 הגדרת Typography
 - [ ] בחירת font ראשי (Geist או Outfit)
