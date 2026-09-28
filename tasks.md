@@ -258,27 +258,27 @@
 ## Phase 7: Images ו-Visuals
 
 ### 7.1 הוספת Placeholder Images
-- [ ] יצירת או הורדת placeholder images:
+- [x] יצירת או הורדת placeholder images:
   - Hero image (1600x1200 או aspect ratio מתאים)
   - Project images (לכל פרויקט)
   - (אופציונלי) About image
-- [ ] שמירה ב-`public/images/`
+- [x] שמירה ב-`public/images/`
 
 ### 7.2 Image Optimization
-- [ ] שימוש ב-`next/image` לכל התמונות
-- [ ] Priority ל-hero image
-- [ ] Lazy loading לתמונות מתחת ל-fold
-- [ ] וודא WebP format אוטומטי
+- [x] שימוש ב-`next/image` לכל התמונות
+- [x] Priority ל-hero image
+- [x] Lazy loading לתמונות מתחת ל-fold
+- [x] וודא WebP format אוטומטי
 
 ### 7.3 Hero Visual
-- [ ] הוספת hero visual (תמונה או אנימציה)
-- [ ] Responsive sizing
-- [ ] Mobile adaptation
-- [ ] וודא שה-visual לא גונב את ה-focus מהטקסט
+- [x] הוספת hero visual (תמונה או אנימציה)
+- [x] Responsive sizing
+- [x] Mobile adaptation
+- [x] וודא שה-visual לא גונב את ה-focus מהטקסט
 
 ### 7.4 Project Images
-- [ ] הוספת images לכל project card
-- [ ] Responsive sizing
+- [x] הוספת images לכל project card
+- [x] Responsive sizing
 - [ ] Hover effects (אם רלוונטי)
 - [ ] Fallback alt text
 

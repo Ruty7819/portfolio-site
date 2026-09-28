@@ -27,20 +27,26 @@ export function About() {
               {about.description}
             </p>
             <p className="text-foreground/60 dark:text-foreground-dark/60">
-              {about.yearsOfExperience} שנות ניסיון בפיתוח web ואינטגרציה של טכנולוגיות AI
+              מומחיות טכנית מרכזית: בינה מלאכותית (AI Agents, RAG, Vector Databases), ארכיטקטורת Full-Stack (.NET Core, Angular, React), ענן ו-DevOps (AWS, Docker, CI/CD), ואוטומציות מתקדמות (Playwright, n8n, Make.com).
             </p>
           </div>
           
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-foreground dark:text-foreground-dark">
-              כישורים עיקריים
+              ניסיון תעסוקתי
             </h3>
-            <ul className="space-y-2 text-foreground/70 dark:text-foreground-dark/70">
-              <li>• Fullstack Development</li>
-              <li>• AI & Machine Learning</li>
-              <li>• Workflow Automation</li>
-              <li>• System Architecture</li>
-            </ul>
+            <div className="space-y-3">
+              <div className="text-foreground/70 dark:text-foreground-dark/70">
+                <p className="font-semibold text-foreground dark:text-foreground-dark">מהנדסת Full-Stack ובינה מלאכותית</p>
+                <p className="text-sm">משרד החינוך (פרויקט גפ"ן) • 2025 – היום</p>
+              </div>
+              <ul className="space-y-1 text-sm text-foreground/60 dark:text-foreground-dark/60">
+                <li>• ארכיטקטורה ותחזוקה של מערכות ארגוניות מרכזיות</li>
+                <li>• פיתוח Frontend רספונסיבי ב-Angular 16+ ו-PrimeNG</li>
+                <li>• ממשקי API RESTful מאובטחים ב-.NET Core ו-SQL Server</li>
+                <li>• שילוב זרימות עבודה של סוכני בינה מלאכותית</li>
+              </ul>
+            </div>
           </div>
         </div>
       </motion.div>

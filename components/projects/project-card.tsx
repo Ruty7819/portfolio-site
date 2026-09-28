@@ -19,8 +19,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       className="group relative overflow-hidden rounded-2xl border border-foreground/10 dark:border-foreground-dark/10 bg-background dark:bg-background-dark hover:border-accent/50 dark:hover:border-accent/50 transition-colors"
     >
-      <div className="aspect-video bg-gradient-to-br from-accent/10 to-secondary/20 dark:from-accent/10 dark:to-secondary-dark/20 flex items-center justify-center">
-        <p className="text-foreground/50 dark:text-foreground-dark/50 text-sm">Project Image - להוסיף בהמשך</p>
+      <div className="aspect-video relative">
+        <img
+          src={`https://picsum.photos/seed/${project.title.replace(/\s+/g, '-')}/800/450`}
+          alt={project.title}
+          className="w-full h-full object-cover"
+        />
       </div>
       
       <div className="p-6 space-y-4">

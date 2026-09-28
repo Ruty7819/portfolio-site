@@ -24,9 +24,9 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             >
               <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-tighter leading-none text-foreground dark:text-foreground-dark">
-                מפתחת Fullstack
+                מהנדסת Full-Stack
                 <br />
-                <span className="text-accent">+ AI/Automation</span>
+                <span className="text-accent">+ AI Solutions Architect</span>
               </h1>
             </motion.div>
 
@@ -36,7 +36,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="text-lg text-foreground/70 dark:text-foreground-dark/70 leading-relaxed max-w-[65ch]"
             >
-              בונה יישומי web מודרניים, מערכות AI חכמות, ופתרונות אוטומציה מתקדמים
+              מתמחה בבניית גשרים בין מערכות Backend ארגוניות מורכבות לבין יישומי בינה מלאכותית מתקדמים. עם תואר ראשון במשפטים וניסיון בארכיטקטורת מערכות תפוקה גבוהה.
             </motion.p>
 
             <motion.div
@@ -48,15 +48,19 @@ export function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Right side - Visual placeholder */}
+          {/* Right side - Visual */}
           <motion.div
             initial={reduce ? false : { opacity: 0, scale: 0.9 }}
             animate={reduce ? false : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
-            <div className="aspect-square bg-gradient-to-br from-accent/20 to-secondary/30 dark:from-accent/30 dark:to-secondary/40 rounded-3xl flex items-center justify-center">
-              <p className="text-foreground/50 dark:text-foreground-dark/50">Hero Visual - להוסיף בהמשך</p>
+            <div className="aspect-square relative rounded-3xl overflow-hidden bg-gradient-to-br from-accent/20 to-secondary/30 dark:from-accent/30 dark:to-secondary/40">
+              <img
+                src="https://picsum.photos/seed/portfolio-hero/800/800"
+                alt="Portfolio hero visual"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </div>

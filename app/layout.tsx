@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "פורטפוליו אישי - Fullstack Developer",
-  description: "פורטפוליו אישי של מפתחת Fullstack + AI/Automation",
+  title: "מהנדסת Full-Stack ואדריכל פתרונות AI",
+  description: "מהנדסת Full-Stack ואדריכל פתרונות AI המתמחה בבניית גשרים בין מערכות Backend ארגוניות מורכבות לבין יישומי בינה מלאכותית מתקדמים",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

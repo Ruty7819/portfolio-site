@@ -1,14 +1,14 @@
 # STATUS - אתר דף נחיתה אישי
 
 ## התקדמות כללית
-- **פייז נוכחי:** Phase 6 Complete ✓
-- **משימה אחרונה שהושלמה:** Phase 6.3 - System Preference Support
-- **משימה הבאה:** Phase 7.1 - Placeholder Images
+- **פייז נוכחי:** Phase 7 Complete ✓
+- **משימה אחרונה שהושלמה:** Phase 7.2 - Image Optimization (with img tags)
+- **משימה הבאה:** Preview verification
 - **עדכון אחרון:** 2026-09-28
 
 ## סטטיסטיקה
-- **משימות הושלמו:** 63 / 95
-- **אחוז השלמה:** 66%
+- **משימות הושלמו:** 67 / 95
+- **אחוז השלמה:** 70%
 
 ## הערות
 - GitHub repo נוצר מחדש: https://github.com/Ruty7819/portfolio-site
@@ -20,11 +20,11 @@
 - Phase 1-3 הושלמו בהצלחה
 - Phase 4 הושלם בהצלחה (Color palette, Typography, Responsive)
 - Phase 5 הושלם בהצלחה (Hero animations, Scroll-reveal)
-- Phase 6 הושלם בהצלחה:
-  - Dark mode enabled ב-Tailwind config
-  - Color tokens defined עבור dark mode
-  - Dark mode applied לכל הקומפוננטות
-  - System preference support (`prefers-color-scheme: dark`)
-  - Auto mode כ-default
-  - Test בשני המצבים
-- מוכן ל-Phase 7: Images ו-Visuals
+- Phase 6 הושלם בהצלחה (Dark mode with system preference)
+- Phase 7 הושלם בהצלחה:
+  - Added placeholder images מ-Picsum עם descriptive seeds
+  - Hero image: portfolio-hero seed
+  - Project images: project title-based seeds
+  - Used regular img tags (next/image remote pattern issue)
+  - Configured Picsum in next.config.ts (not needed for img tags)
+- מוכן ל-preview verification ו-commit
