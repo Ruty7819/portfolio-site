@@ -49,38 +49,38 @@
 ## Phase 2: תשתית וקומפוננטות בסיסיות
 
 ### 2.1 יצירת Structure של קבצים
-- [ ] יצירת תיקיית `components/`
-- [ ] יצירת תיקיות משנה:
+- [x] יצירת תיקיית `components/`
+- [x] יצירת תיקיות משנה:
   - `components/hero/`
   - `components/about/`
   - `components/projects/`
   - `components/skills/`
   - `components/footer/`
   - `components/ui/`
-- [ ] יצירת תיקיית `lib/`
-- [ ] יצירת תיקיית `public/images/`
+- [x] יצירת תיקיית `lib/`
+- [x] יצירת תיקיית `public/images/`
 
 ### 2.2 יצירת Reusable UI Components
-- [ ] יצירת `components/ui/button.tsx`:
+- [x] יצירת `components/ui/button.tsx`:
   - Variants: primary, secondary, ghost
   - Sizes: sm, md, lg
   - Hover/active states
   - Focus states (accessibility)
-- [ ] יצירת `components/ui/section-wrapper.tsx`:
+- [x] יצירת `components/ui/section-wrapper.tsx`:
   - Consistent padding
   - Max-width container
   - Responsive behavior
 
 ### 2.3 יצירת Static Data
-- [ ] יצירת `lib/data.ts`:
+- [x] יצירת `lib/data.ts`:
   - `projects` array עם 3-5 פרויקטים מדומים רלוונטיים
   - `skills` object עם 4 קטגוריות
   - `about` object עם תוכן אישי
   - `contact` object עם פרטי קשר
-- [ ] וודא שה-data מוגדר נכון עם TypeScript types
+- [x] וודא שה-data מוגדר נכון עם TypeScript types
 
 ### 2.4 יצירת Page Structure
-- [ ] עדכון `app/page.tsx` לכלול:
+- [x] עדכון `app/page.tsx` לכלול:
   - Import של כל הסקשנים
   - Semantic HTML structure
   - Placeholder components
