@@ -28,10 +28,10 @@
 - [x] וודא שהכל עובד עם `npm run dev`
 
 ### 1.4 הגדרת Typography
-- [ ] בחירת font ראשי (Geist או Outfit)
-- [ ] הגדרת font ב-`app/layout.tsx` עם `next/font`
-- [ ] הגדרת font stack ל-body text
-- [ ] וודא שה-font נטען נכון (בדיקה ב-browser)
+- [x] בחירת font ראשי (Geist או Outfit)
+- [x] הגדרת font ב-`app/layout.tsx` עם `next/font`
+- [x] הגדרת font stack ל-body text
+- [x] וודא שה-font נטען נכון (בדיקה ב-browser)
 
 ### 1.5 הגדרת Basic Layout
 - [ ] עדכון `app/layout.tsx` עם:
