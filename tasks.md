@@ -34,15 +34,15 @@
 - [x] וודא שה-font נטען נכון (בדיקה ב-browser)
 
 ### 1.5 הגדרת Basic Layout
-- [ ] עדכון `app/layout.tsx` עם:
+- [x] עדכון `app/layout.tsx` עם:
   - Font configuration
   - Root metadata (title, description)
   - Basic structure
-- [ ] עדכון `app/globals.css` עם:
+- [x] עדכון `app/globals.css` עם:
   - Tailwind directives
   - Base styles
   - Custom CSS variables (אם צריך)
-- [ ] עדכון `app/page.tsx` להיות empty או placeholder
+- [x] עדכון `app/page.tsx` להיות empty או placeholder
 
 ---
 
