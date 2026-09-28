@@ -1,11 +1,11 @@
+import { Hero } from "@/components/hero/hero";
+
 export default function Home() {
   return (
     <main className="min-h-[100dvh]">
-      {/* Placeholder sections - will be implemented in Phase 3 */}
-      <section id="hero" className="min-h-[100dvh] flex items-center justify-center">
-        <p className="text-xl">Hero Section - בבנייה</p>
-      </section>
+      <Hero />
 
+      {/* Placeholder sections - will be implemented in Phase 3 */}
       <section id="about" className="min-h-[50dvh] flex items-center justify-center">
         <p className="text-xl">About Section - בבנייה</p>
       </section>

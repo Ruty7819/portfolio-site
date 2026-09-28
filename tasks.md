@@ -90,14 +90,14 @@
 ## Phase 3: בניית הסקשנים (גרסה בסיסית)
 
 ### 3.1 Hero Section (בסיסי)
-- [ ] יצירת `components/hero/hero.tsx`:
+- [x] יצירת `components/hero/hero.tsx`:
   - Client component עם `'use client'`
   - כותרת ראשית
   - כותרת משנה (עד 20 מילים)
   - CTA button
   - Placeholder ל-visual element
   - Entry animation placeholder
-- [ ] הוספת ל-`app/page.tsx`
+- [x] הוספת ל-`app/page.tsx`
 
 ### 3.2 About Section
 - [ ] יצירת `components/about/about.tsx`:
