@@ -100,41 +100,41 @@
 - [x] הוספת ל-`app/page.tsx`
 
 ### 3.2 About Section
-- [ ] יצירת `components/about/about.tsx`:
+- [x] יצירת `components/about/about.tsx`:
   - Server component
   - תיאור אישי
   - רשימת כישורים עיקריים
   - רשימת טכנולוגיות
-- [ ] הוספת ל-`app/page.tsx`
+- [x] הוספת ל-`app/page.tsx`
 
 ### 3.3 Projects Section
-- [ ] יצירת `components/projects/projects.tsx`:
+- [x] יצירת `components/projects/projects.tsx`:
   - Server component
   - Grid layout (לא 3 equal cards)
   - Import מ-`lib/data.ts`
-- [ ] יצירת `components/projects/project-card.tsx`:
+- [x] יצירת `components/projects/project-card.tsx`:
   - Client component עם `'use client'`
   - Title, description, technologies
   - Image placeholder
   - Link לפרויקט
   - Hover effect placeholder
-- [ ] הוספת ל-`app/page.tsx`
+- [x] הוספת ל-`app/page.tsx`
 
 ### 3.4 Skills Section
-- [ ] יצירת `components/skills/skills.tsx`:
+- [x] יצירת `components/skills/skills.tsx`:
   - Client component עם `'use client'`
   - ייצוג ויזואלי/אינטראקטיבי
   - 4 קטגוריות
   - Import מ-`lib/data.ts`
-- [ ] הוספת ל-`app/page.tsx`
+- [x] הוספת ל-`app/page.tsx`
 
 ### 3.5 Footer
-- [ ] יצירת `components/footer/footer.tsx`:
+- [x] יצירת `components/footer/footer.tsx`:
   - Server component
   - קישורים חברתיים (LinkedIn, GitHub)
   - אימייל ליצירת קשר
   - זכויות יוצרים
-- [ ] הוספת ל-`app/page.tsx`
+- [x] הוספת ל-`app/page.tsx`
 
 ---
 
