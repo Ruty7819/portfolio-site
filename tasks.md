@@ -3,20 +3,20 @@
 ## Phase 1: הקמה והגדרות בסיס
 
 ### 1.1 יצירת הפרויקט
-- [ ] יצירת תיקיית פרויקט חדשה בתיקיית העבודה
-- [ ] הרצת `npx create-next-app@latest portfolio-site` עם האפשרויות:
+- [x] יצירת תיקיית פרויקט חדשה בתיקיית העבודה
+- [x] הרצת `npx create-next-app@latest portfolio-site` עם האפשרויות:
   - TypeScript: Yes
   - ESLint: Yes
   - Tailwind CSS: Yes (v3 לבינתיים, נשדרג ל-v4 אחר כך)
   - App Router: Yes
   - Src directory: No (פשוט יותר)
   - Import alias: @/* (default)
-- [ ] מעבר לתיקיית הפרויקט: `cd portfolio-site`
-- [ ] הרצת `npm run dev` לוודא שהכל עובד
+- [x] מעבר לתיקיית הפרויקט: `cd portfolio-site`
+- [x] הרצת `npm run dev` לוודא שהכל עובד
 
 ### 1.2 התקנת Dependencies
-- [ ] התקנת Motion: `npm install motion`
-- [ ] התקנת Phosphor Icons: `npm install @phosphor-icons/react`
+- [x] התקנת Motion: `npm install motion`
+- [x] התקנת Phosphor Icons: `npm install @phosphor-icons/react`
 - [ ] (אופציונלי) התקנת Geist font או Outfit דרך next/font
 
 ### 1.3 הגדרת Tailwind v4
