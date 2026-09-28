@@ -1,3 +1,5 @@
+"use client";
+
 import { SectionWrapper } from "../ui/section-wrapper";
 import { contact } from "@/lib/data";
 import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
