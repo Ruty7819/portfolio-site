@@ -17,18 +17,18 @@ export function ProjectCard({ project }: ProjectCardProps) {
       whileInView={reduce ? false : { opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-      className="group relative overflow-hidden rounded-2xl border border-foreground/10 bg-background hover:border-accent/50 transition-colors"
+      className="group relative overflow-hidden rounded-2xl border border-foreground/10 dark:border-foreground-dark/10 bg-background dark:bg-background-dark hover:border-accent/50 dark:hover:border-accent/50 transition-colors"
     >
-      <div className="aspect-video bg-gradient-to-br from-accent/10 to-secondary/20 flex items-center justify-center">
-        <p className="text-foreground/50 text-sm">Project Image - להוסיף בהמשך</p>
+      <div className="aspect-video bg-gradient-to-br from-accent/10 to-secondary/20 dark:from-accent/10 dark:to-secondary-dark/20 flex items-center justify-center">
+        <p className="text-foreground/50 dark:text-foreground-dark/50 text-sm">Project Image - להוסיף בהמשך</p>
       </div>
       
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-semibold text-foreground group-hover:text-accent transition-colors">
+        <h3 className="text-xl font-semibold text-foreground dark:text-foreground-dark group-hover:text-accent transition-colors">
           {project.title}
         </h3>
         
-        <p className="text-foreground/60 text-sm leading-relaxed">
+        <p className="text-foreground/60 dark:text-foreground-dark/60 text-sm leading-relaxed">
           {project.description}
         </p>
         
@@ -36,7 +36,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="text-xs px-3 py-1 rounded-full bg-secondary/30 text-foreground/70"
+              className="text-xs px-3 py-1 rounded-full bg-secondary/30 dark:bg-secondary-dark/30 text-foreground/70 dark:text-foreground-dark/70"
             >
               {tech}
             </span>

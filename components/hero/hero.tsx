@@ -23,7 +23,7 @@ export function Hero() {
               animate={reduce ? false : { opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-tighter leading-none text-foreground">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-tighter leading-none text-foreground dark:text-foreground-dark">
                 מפתחת Fullstack
                 <br />
                 <span className="text-accent">+ AI/Automation</span>
@@ -34,7 +34,7 @@ export function Hero() {
               initial={reduce ? false : { opacity: 0, y: 20 }}
               animate={reduce ? false : { opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-              className="text-lg text-foreground/70 leading-relaxed max-w-[65ch]"
+              className="text-lg text-foreground/70 dark:text-foreground-dark/70 leading-relaxed max-w-[65ch]"
             >
               בונה יישומי web מודרניים, מערכות AI חכמות, ופתרונות אוטומציה מתקדמים
             </motion.p>
@@ -55,8 +55,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="relative"
           >
-            <div className="aspect-square bg-gradient-to-br from-accent/20 to-secondary/30 rounded-3xl flex items-center justify-center">
-              <p className="text-foreground/50">Hero Visual - להוסיף בהמשך</p>
+            <div className="aspect-square bg-gradient-to-br from-accent/20 to-secondary/30 dark:from-accent/30 dark:to-secondary/40 rounded-3xl flex items-center justify-center">
+              <p className="text-foreground/50 dark:text-foreground-dark/50">Hero Visual - להוסיף בהמשך</p>
             </div>
           </motion.div>
         </div>

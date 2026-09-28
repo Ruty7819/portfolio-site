@@ -147,60 +147,60 @@
 - [x] הגדרת colors ב-Tailwind config או CSS variables
 
 ### 4.2 יישום Typography
-- [ ] הגדרת font sizes עבור:
+- [x] הגדרת font sizes עבור:
   - Display/headlines (text-4xl md:text-6xl)
   - Body (text-base)
   - Captions/labels
-- [ ] הגדרת line-heights
-- [ ] הגדרת letter-spacing עבור uppercase labels
-- [ ] וודא ש-italic עם descenders יש leading מספיק
+- [x] הגדרת line-heights
+- [x] הגדרת letter-spacing עבור uppercase labels
+- [x] וודא ש-italic עם descenders יש leading מספיק
 
 ### 4.3 עיצוב בסיסי לכל הסקשנים
-- [ ] עיצוב Hero:
+- [x] עיצוב Hero:
   - Asymmetric layout (לא centered generic)
   - Proper spacing
   - Responsive behavior
-- [ ] עיצוב About:
+- [x] עיצוב About:
   - Creative layout (לא רק רשימת טקסט)
   - Proper spacing
-- [ ] עיצוב Projects:
+- [x] עיצוב Projects:
   - Bento grid או layout יצירתי
   - Rhythm ב-grid
   - Exact cell count (N items → N cells)
-- [ ] עיצוב Skills:
+- [x] עיצוב Skills:
   - Visual representation
   - Interactive elements
-- [ ] עיצוב Footer:
+- [x] עיצוב Footer:
   - Clean, not cluttered
   - Proper spacing
 
 ### 4.4 Responsive בסיסי
-- [ ] Hero mobile collapse (single column)
-- [ ] Projects mobile collapse (1 column)
-- [ ] Skills mobile collapse
-- [ ] Viewport stability: שימוש ב-`min-h-[100dvh]` במקום `h-screen`
-- [ ] Test ב-mobile breakpoint (sm, md)
+- [x] Hero mobile collapse (single column)
+- [x] Projects mobile collapse (1 column)
+- [x] Skills mobile collapse
+- [x] Viewport stability: שימוש ב-`min-h-[100dvh]` במקום `h-screen`
+- [x] Test ב-mobile breakpoint (sm, md)
 
 ---
 
 ## Phase 5: Animations ו-Motion
 
 ### 5.1 Hero Animations
-- [ ] הוספת entry animations עם Motion:
+- [x] הוספת entry animations עם Motion:
   - Headline fade-in + slide-up
   - Subtext staggered
   - CTA button reveal
-- [ ] Reduced motion fallback עם `useReducedMotion()`
-- [ ] וודא שהאנימציות ממונעות (hierarchy)
+- [x] Reduced motion fallback עם `useReducedMotion()`
+- [x] וודא שהאנימציות ממונעות (hierarchy)
 
 ### 5.2 Scroll-Reveal Animations
-- [ ] הוספת scroll-reveal לכל הסקשנים:
+- [x] הוספת scroll-reveal לכל הסקשנים:
   - About section
   - Projects section
   - Skills section
-- [ ] שימוש ב-`whileInView` של Motion
-- [ ] Reduced motion fallback
-- [ ] Staggered timing לפריטים בסקשנים
+- [x] שימוש ב-`whileInView` של Motion
+- [x] Reduced motion fallback
+- [x] Staggered timing לפריטים בסקשנים
 
 ### 5.3 Hover Effects
 - [ ] Hover physics על CTAs:
@@ -228,24 +228,24 @@
 ## Phase 6: Dark Mode
 
 ### 6.1 הגדרת Dark Mode Tokens
-- [ ] הגדרת `dark:` variants ב-Tailwind
-- [ ] הגדרת colors עבור dark mode:
+- [x] הגדרת `dark:` variants ב-Tailwind
+- [x] הגדרת colors עבור dark mode:
   - Background (off-black, לא pure #000)
   - Text (off-white)
   - Accent color (same as light)
-- [ ] וודא contrast טוב בשני המצבים
+- [x] וודא contrast טוב בשני המצבים
 
 ### 6.2 יישום Dark Mode בסקשנים
-- [ ] Hero dark mode
-- [ ] About dark mode
-- [ ] Projects dark mode
-- [ ] Skills dark mode
-- [ ] Footer dark mode
+- [x] Hero dark mode
+- [x] About dark mode
+- [x] Projects dark mode
+- [x] Skills dark mode
+- [x] Footer dark mode
 
 ### 6.3 System Preference Support
-- [ ] רספקט ל-`prefers-color-scheme`
-- [ ] Auto mode כ-default
-- [ ] Test בשני המצבים
+- [x] רספקט ל-`prefers-color-scheme`
+- [x] Auto mode כ-default
+- [x] Test בשני המצבים
 
 ### 6.4 (Optional) Manual Toggle
 - [ ] Theme provider component

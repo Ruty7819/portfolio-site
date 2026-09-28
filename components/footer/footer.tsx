@@ -6,14 +6,14 @@ import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export function Footer() {
   return (
-    <footer className="border-t border-foreground/10 bg-background">
+    <footer className="border-t border-foreground/10 dark:border-foreground-dark/10 bg-background dark:bg-background-dark">
       <SectionWrapper>
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="space-y-2">
-            <p className="text-foreground/60 text-sm">
+            <p className="text-foreground/60 dark:text-foreground-dark/60 text-sm">
               {contact.email}
             </p>
-            <p className="text-foreground/40 text-xs">
+            <p className="text-foreground/40 dark:text-foreground-dark/40 text-xs">
               © {new Date().getFullYear()} כל הזכויות שמורות
             </p>
           </div>
@@ -23,7 +23,7 @@ export function Footer() {
               href={contact.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-foreground/60 hover:text-accent transition-colors"
+              className="text-foreground/60 dark:text-foreground-dark/60 hover:text-accent transition-colors"
               aria-label="GitHub"
             >
               <GithubLogo size={24} />
@@ -32,7 +32,7 @@ export function Footer() {
               href={contact.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-foreground/60 hover:text-accent transition-colors"
+              className="text-foreground/60 dark:text-foreground-dark/60 hover:text-accent transition-colors"
               aria-label="LinkedIn"
             >
               <LinkedinLogo size={24} />

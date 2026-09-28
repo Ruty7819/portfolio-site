@@ -7,7 +7,7 @@ interface SectionWrapperProps {
 
 export function SectionWrapper({ children, className = '' }: SectionWrapperProps) {
   return (
-    <section className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 ${className}`}>
+    <section className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32 ${className}`}>
       {children}
     </section>
   );
