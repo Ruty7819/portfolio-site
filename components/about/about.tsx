@@ -11,8 +11,8 @@ export function About() {
   return (
     <SectionWrapper>
       <motion.div
-        initial={reduce ? false : { opacity: 0, y: 30 }}
-        whileInView={reduce ? false : { opacity: 1, y: 0 }}
+        initial={reduce ? undefined : { opacity: 0, y: 30 }}
+        whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         className="space-y-8"

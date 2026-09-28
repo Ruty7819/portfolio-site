@@ -13,8 +13,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <motion.div
-      initial={reduce ? false : { opacity: 0, y: 20 }}
-      whileInView={reduce ? false : { opacity: 1, y: 0 }}
+      initial={reduce ? undefined : { opacity: 0, y: 20 }}
+      whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
       className="group relative overflow-hidden rounded-2xl border border-foreground/10 dark:border-foreground-dark/10 bg-background dark:bg-background-dark hover:border-accent/50 dark:hover:border-accent/50 transition-colors"
@@ -22,7 +22,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <div className="aspect-video relative">
         <img
           src={`https://picsum.photos/seed/${project.title.replace(/\s+/g, '-')}/800/450`}
-          alt={project.title}
+          alt={`תמונה של פרויקט ${project.title}`}
           className="w-full h-full object-cover"
         />
       </div>
